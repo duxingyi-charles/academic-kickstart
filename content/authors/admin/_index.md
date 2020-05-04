@@ -77,4 +77,4 @@ user_groups:
 - Visitors
 ---
 
-Charles Du is a second-year PhD student at the WashU Graphics Lab. His research interests include computer graphics, geometric computing and optimization.
+Xingyi Du is a second-year PhD student at the WashU Graphics Lab. His research interests include computer graphics, geometric computing and optimization.
