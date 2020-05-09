@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Lifting Simplices to Find Injectivity"
-authors: [Xingyi Du, Noam Aigerman, Qingnan Zhou, Shahar Z. Kovalsky, Yajie Yan, Danny M. Kaufman, Tao Ju]
+authors: [Xingyi Du, "Noam Aigerman", "Qingnan Zhou", "Shahar Z. Kovalsky", "Yajie Yan", "Danny M. Kaufman", "Tao Ju"]
 date: 2020-05-04T17:23:54-05:00
 doi: ""
 
@@ -16,10 +16,10 @@ publishDate: 2020-05-04T17:23:54-05:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Siggraph 2020"
+publication: "ACM Transaction on Graphics (Proc. SIGGRAPH 2020)"
 publication_short: ""
 
-abstract: "Mapping a source mesh into a target domain while preserving local injec- tivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not avail- able, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success."
+abstract: "Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not avail- able, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
+url_pdf:
 url_code: https://github.com/duxingyi-charles/lifted-nlopt
 url_dataset:
 url_poster:
@@ -46,7 +46,7 @@ url_source:
 url_video:
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+# To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
