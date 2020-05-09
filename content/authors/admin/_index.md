@@ -77,4 +77,5 @@ user_groups:
 - Visitors
 ---
 
-Xingyi Du is a second-year PhD student at the WashU Graphics Lab. His research interests include computer graphics, geometric computing and optimization.
+
+I am a second-year PhD student at the WashU Graphics Lab. My research interests include computer graphics, geometric computing and optimization.
