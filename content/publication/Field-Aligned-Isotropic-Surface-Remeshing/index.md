@@ -1,6 +1,6 @@
 +++
 title = "Field-Aligned Isotropic Surface Remeshing"
-date = 2018-02-15T20:04:23-04:00
+date = 2018-02-28T00:00:00-00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -25,11 +25,6 @@ abstract = "We present a novel isotropic surface remeshing algorithm that automa
 
 abstract_short = ""
 
-# Featured image thumbnail (optional)
-# image_preview = "abc-dataset.png"
-
-# Is this a selected publication? (true/false)
-# selected = true
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -67,5 +62,8 @@ highlight = true
 [header]
 image = ""
 caption = ""
+placement = 1
+preview_only = false
+
 
 +++
