@@ -16,7 +16,7 @@ publishDate: 2020-05-09T17:23:54-05:00
 publication_types: 
 
 # Publication name and optional abbreviated publication name.
-publication: "Computer Graphics Forum (Proc. Eurographics 2018)"
+publication: "Computer Graphics Forum, 2018, Vol.37, Issue.6 (Proc. Eurographics 2018)"
 publication_short: ""
 
 abstract: "We present a novel isotropic surface remeshing algorithm that automatically aligns the mesh edges with an underlying directional field. The alignment is achieved by minimizing an energy function that combines both centroidal Voronoi tessellation and the penalty enforced by a six-way rotational symmetry (6-RoSy) field. The CVT term ensures the uniform distribution of thevertices and the high remeshing quality, while the field constraint enforces the directional alignment of the edges. Experimental results show that the proposed approach has the advantages of both isotropic remeshing and field-aligned remeshing. We demonstrate that our algorithm is superior to the representative state-of-the-art approaches in various aspects."
@@ -74,5 +74,8 @@ header:
 
 ---
 
+{{<figure alt="overview of algorithm" src="/img/fcvt-cylinder.png" title="Figure 1. Given a user-defined directional field (left), our method aligns mesh edges with the field direction (middle left). The result is a high quality remeshing with less singular vertices (right).">}}
 
-{{<figure alt="overview of algorithm" src="/img/fcvt-cylinder.png" title="Figure 1. Given a user-defined directional field (left), our method aligns the mesh edges with the field direction (middle left). The result is a high quality remeshing with less singular vertices (right).">}}
+### **Abstract**
+
+We present a novel isotropic surface remeshing algorithm that automatically aligns the mesh edges with an underlying directional field. The alignment is achieved by minimizing an energy function that combines both centroidal Voronoi tessellation and the penalty enforced by a six-way rotational symmetry (6-RoSy) field. The CVT term ensures the uniform distribution of thevertices and the high remeshing quality, while the field constraint enforces the directional alignment of the edges. Experimental results show that the proposed approach has the advantages of both isotropic remeshing and field-aligned remeshing. We demonstrate that our algorithm is superior to the representative state-of-the-art approaches in various aspects.
