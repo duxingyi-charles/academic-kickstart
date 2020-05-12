@@ -104,7 +104,7 @@ We release the large benchmark dataset of 2D/3D meshes used to compare with prev
 
 #### 3D Deformation
 
-{{<figure alt="3D Deformation" src="/img/TLC/3D-Deform.png" title="Figure 4. Three example in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600+ frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).">}}
+{{<figure alt="3D Deformation" src="/img/TLC/3D-Deform.png" title="Figure 4. Three examples in the 3D deformation category (a twisting armadillo) where FF, SA and LBD all failed to reach injectivity. The graph in the top-right shows the number of inverted tetrahedra for each of the 600+ frames of the deformation sequence (ellipses indicate the frames from which the three examples were taken).">}}
 
 #### Dataset Organization
 
@@ -114,10 +114,10 @@ Each triangular mesh example contains
 - `result.obj`: result of our method
 
 Each tetrahedral mesh example contains
-- `rest.msh`: rest mesh
-- `init.msh`: initial mesh
+- `rest.vtk`: rest mesh
+- `init.vtk`: initial mesh
 - `handles.txt`: list of indices of the fixed vertices
-- `result.msh`: result of our method
+- `result.vtk`: result of our method
 
 
 
