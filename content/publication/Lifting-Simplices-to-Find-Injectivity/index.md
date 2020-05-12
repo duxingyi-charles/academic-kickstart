@@ -125,4 +125,6 @@ Each tetrahedral mesh example contains
 (Code and dataset will be released soon. Thanks for your patience.)
 
 
+<!-- ### **Acknowledgments**
 
+This work is supported in part by NSF grant RI-1618685, NIH grant U2C CA233303-1, and Simons Math+X Investigators Award 400837. We would like to thank authors of several papers for providing code, data, and help with comparisons, and especially Hanxiao Shen, Ofir Weber, Alon Bright, Zohar Levi, and Xiao-Ming Fu. -->
