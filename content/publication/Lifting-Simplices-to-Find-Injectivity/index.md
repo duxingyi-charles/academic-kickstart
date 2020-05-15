@@ -92,7 +92,7 @@ This video demonstrates the process of **TLC** optimization on a complex example
 
 ### **Dataset**
 
-We release the large benchmark dataset of 2D/3D meshes used to compare with previous methods. The dataset includes _10743_ triangular mesh examples and _904_ tetrahedral mesh examples. The dateset is divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation.
+We release the large benchmark dataset of 2D/3D meshes used to compare with previous methods. The dataset includes _10743_ triangular mesh examples and _904_ tetrahedral mesh examples. The dataset is divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation.
 
 #### 2D Parameterization
 
