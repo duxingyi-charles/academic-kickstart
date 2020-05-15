@@ -42,7 +42,7 @@ links:
 
 url_pdf:
 url_code: https://github.com/duxingyi-charles/lifted-nlopt
-url_dataset: https://doi.org/10.5281/zenodo.3827969
+#url_dataset: https://doi.org/10.5281/zenodo.3827969
 url_poster:
 url_project:
 url_slides:
@@ -92,7 +92,7 @@ This video demonstrates the process of **TLC** optimization on a complex example
 
 ### **Dataset**
 
-We release the large benchmark dataset of 2D/3D meshes used to compare with previous methods. The dataset includes _10743_ triangular mesh examples and _904_ tetrahedral mesh examples. The dataset is divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation.
+We present the large benchmark dataset of 2D/3D meshes used to compare with previous methods. The dataset includes _10743_ triangular mesh examples and _904_ tetrahedral mesh examples. The dataset is divided into 3 categories, 2D parameterization, 3D parameterization and 3D deformation.
 
 #### 2D Parameterization
 
@@ -123,7 +123,7 @@ Here is an introduction to [VTK format](https://lorensen.github.io/VTKExamples/s
 
 
 
-[`Download Dataset`](https://doi.org/10.5281/zenodo.3827969)
+<!-- [`Download Dataset`](https://doi.org/10.5281/zenodo.3827969) -->
 
 
 
