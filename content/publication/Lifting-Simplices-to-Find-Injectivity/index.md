@@ -86,7 +86,7 @@ Mapping a source mesh into a target domain while preserving local injectivity is
 
 ### **Video**
 
-This video demonstrates the process of **TLC** optimization on a complex example. The initial mapping has _3115_ inverted triangles (colored red). Our method computes an injective mapping within _120_ iterations. 
+This video demonstrates the process of **TLC** optimization on a complex example. The initial mapping has _3115_ inverted triangles (colored red). Our method computes an injective mapping within _64_ iterations. 
 
 {{<video src="lucy_G.mp4" controls="yes" >}}
 
