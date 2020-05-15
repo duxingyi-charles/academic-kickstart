@@ -42,7 +42,8 @@ links:
 
 url_pdf:
 url_code: https://github.com/duxingyi-charles/lifted-nlopt
-url_dataset: https://wustl.box.com/v/InjectiveMappingBenchmark
+#url_dataset: https://wustl.box.com/v/InjectiveMappingBenchmark
+url_dataset: https://doi.org/10.5281/zenodo.3827969
 url_poster:
 url_project:
 url_slides:
@@ -119,10 +120,13 @@ Each tetrahedral mesh example contains
 - `handles.txt`: list of indices of the fixed vertices
 - `result.vtk`: result of our method
 
+Here is an introduction to [VTK format](https://lorensen.github.io/VTKExamples/site/VTKFileFormats/).
 
 
-[`Download Dataset`](https://wustl.box.com/v/InjectiveMappingBenchmark)
-(Code and dataset will be released soon. Thanks for your patience.)
+
+[`Download Dataset`](https://doi.org/10.5281/zenodo.3827969)
+
+
 
 
 <!-- ### **Acknowledgments**
