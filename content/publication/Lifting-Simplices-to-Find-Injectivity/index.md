@@ -42,7 +42,7 @@ links:
 
 url_pdf:
 url_code: https://github.com/duxingyi-charles/lifted-nlopt
-#url_dataset: https://doi.org/10.5281/zenodo.3827969
+url_dataset: https://github.com/duxingyi-charles/Locally-Injective-Mappings-Benchmark
 url_poster:
 url_project:
 url_slides:
@@ -123,7 +123,7 @@ Here is an introduction to [VTK format](https://lorensen.github.io/VTKExamples/s
 
 
 
-<!-- [`Download Dataset`](https://doi.org/10.5281/zenodo.3827969) -->
+[`Download Dataset`](https://doi.org/10.5281/zenodo.3827969)
 
 
 
