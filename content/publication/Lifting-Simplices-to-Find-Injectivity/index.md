@@ -47,7 +47,7 @@ url_poster:
 url_project:
 url_slides:
 url_source:
-url_video:
+url_video: https://youtu.be/lpq4DmKN-ng
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -86,9 +86,7 @@ Mapping a source mesh into a target domain while preserving local injectivity is
 
 ### **Video**
 
-This video demonstrates the process of **TLC** optimization on a complex example. The initial mapping has _3115_ inverted triangles (colored red). Our method computes an injective mapping within _64_ iterations. 
-
-{{<video src="lucy_G.mp4" controls="yes" >}}
+{{<video src="fast_forward.mp4" controls="yes" >}}
 
 ### **Dataset**
 
