@@ -4,7 +4,7 @@
 title: "Lifting Simplices to Find Injectivity"
 authors: ["Xingyi Du", "Noam Aigerman", "Qingnan Zhou", "Shahar Z. Kovalsky", "Yajie Yan", "Danny M. Kaufman", "Tao Ju"]
 date: 2020-05-04T17:23:54-05:00
-doi: ""
+doi: "10.1145/3386569.3392484"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-05-04T17:23:54-05:00
@@ -16,7 +16,7 @@ publishDate: 2020-05-04T17:23:54-05:00
 publication_types: 
 
 # Publication name and optional abbreviated publication name.
-publication: "ACM Transactions on Graphics (Proc. SIGGRAPH 2020)"
+publication: "ACM Transactions on Graphics, 2020, Vol.39, No.4 (Proc. SIGGRAPH 2020)"
 publication_short: ""
 
 abstract: "Mapping a source mesh into a target domain while preserving local injectivity is an important but highly non-trivial task. Existing methods either require an already-injective starting configuration, which is often not available, or rely on sophisticated solving schemes. We propose a novel energy form, called Total Lifted Content (TLC), that is equipped with theoretical properties desirable for injectivity optimization. By lifting the simplices of the mesh into a higher dimension and measuring their contents (2D area or 3D volume) there, TLC is smooth over the entire embedding space and its global minima are always injective. The energy is simple to minimize using standard gradient-based solvers. Our method achieved 100% success rate on an extensive benchmark of embedding problems for triangular and tetrahedral meshes, on which existing methods only have varied success."
