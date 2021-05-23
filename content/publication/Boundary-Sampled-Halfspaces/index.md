@@ -78,7 +78,7 @@ header:
 
 ---
 
-{{<figure alt="fig1" src="/img/BSH/fig1.png" title="Figure 1. A segmented shape (a) is converted into our representation (b), which consists of halfspaces associated with sparse samples (colored spheres). Each halfspace is either a simple primitive (e.g., plane, sphere, etc.) or a free-form implicit surface (one is shown in transparency). The representation can be easily edited by modifying the halfspaces and/or their samples (c).">}}
+{{<figure alt="featured" src="/img/BSH/fig1.png" title="Figure 1. A segmented shape (a) is converted into our representation (b), which consists of halfspaces associated with sparse samples (colored spheres). Each halfspace is either a simple primitive (e.g., plane, sphere, etc.) or a free-form implicit surface (one is shown in transparency). The representation can be easily edited by modifying the halfspaces and/or their samples (c).">}}
 
 
 
@@ -88,12 +88,27 @@ We present a novel representation of solid models for shape design. Like Constru
 
 ### **Video**
 
-We demonstrate the modeling process of various examples using a program based on boundary-sampled halfspaces.
+We demonstrate the modeling process of various examples using Boundary-Sampled Halfspaces.
 
 {{<video src="demo.mp4" controls="yes" >}}
 
 
+## **2D Shape Design**
 
+{{<figure alt="fig-gallery-2D" src="/img/BSH/fig-gallery-2D.png" title="Figure 2. Several 2D shapes modeled by BSH. Halfspaces for the last two shapes are not shown due to their complexity.">}}
+
+## **3D Shape Design**
+
+{{<figure alt="fig-beads" src="/img/BSH/fig-beads.png" title="Figure 3. Various BSH shapes created from one torus and several spheres. By choosing which segment of the torus has a sample, different segments can be kept or deleted while the shape remains a solid.">}}
+
+{{<figure alt="fig-gallery-3D" src="/img/BSH/fig-gallery-3D.png" title="Figure 4. Shape modeled by BSH that cannot be represented by CSG without additional halfspaces. For the first two shapes, input halfspaces are on the left and the final shapes are on the right. The last shape (“Heart”) is shown in two views, and the second view shows a halfspace represented as a VIPSS implicit surface interpolating a sparse set of control points (red spheres).">}}
+
+## **Converted from other representations**
+
+{{<figure alt="fig-gallery-reverse" src="/img/BSH/fig-gallery-reverse.png" title="Figure 5. Free-form BSH shapes (Elk, Flower, Boat, and Chair) converted from meshes and undergone editing of the halfspaces and/or their samples. Top: each row shows the input segmented mesh, the converted BSH, and result after editing. Selected halfspaces before and after editing are shown with transparency. Bottom: each row shows the converted BSH and two editing results.">}}
+
+
+{{<figure alt="fig-cad" src="/img/BSH/fig-cad.png" title="Figure 6. A CAD mesh segmented and fitted by primitives (a; showing two views), the converted BSH shape (b; showing two views), and two edited shapes with altered structure (e.g., fewer rings and a missing shelf) (c) and modified primitive geometry (d).">}}
 
 
 
