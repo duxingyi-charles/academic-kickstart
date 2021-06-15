@@ -41,7 +41,7 @@ links:
   url: Boundary-Sampled-Halfspaces-low-res.pdf
 
 url_pdf:
-url_code:
+url_code: https://github.com/duxingyi-charles/Boundary_Sampled_Halfspaces
 url_dataset:
 url_poster:
 url_project:
