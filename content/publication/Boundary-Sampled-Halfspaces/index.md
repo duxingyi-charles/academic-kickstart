@@ -88,9 +88,25 @@ We present a novel representation of solid models for shape design. Like Constru
 
 ### **Video**
 
+#### Fast Forward
+
+{{< youtube ujd4t9skJ_Y >}}
+
+#### Quick Summary
+
+{{< youtube rCKh39pEdrg >}}
+
+#### Full Presentation
+
+{{< youtube -lKQAQhfX3I >}}
+
+#### Software Demo
+
 We demonstrate the modeling process of various examples using Boundary-Sampled Halfspaces.
 
-{{<video src="demo.mp4" controls="yes" >}}
+{{< youtube BRO36bIMXxI >}}
+
+
 
 
 ## **2D Shape Design**
