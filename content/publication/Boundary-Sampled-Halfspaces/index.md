@@ -4,7 +4,7 @@
 title: "Boundary-Sampled Halfspaces: A New Representation for Constructive Solid Modeling"
 authors: ["Xingyi Du", "Qingnan Zhou", "Nathan Carr", "Tao Ju"]
 date: 2021-05-21T17:23:54-05:00
-doi: ""
+doi: "10.1145/3450626.3459870"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-05-21T17:23:54-05:00
@@ -22,7 +22,7 @@ publication_short: ""
 abstract: "We present a novel representation of solid models for shape design. Like Constructive Solid Geometry (CSG), the solid shape is constructed from a set of halfspaces without the need for an explicit boundary structure. Instead of using Boolean expressions as in CSG, the shape is defined by sparsely placed samples on the boundary of each halfspace. This representation, called Boundary-Sampled Halfspaces (BSH), affords greater agility and expressiveness than CSG while simplifying the reverse engineering process. We discuss theoretical properties of the representation and present practical algorithms for boundary extraction and conversion from other representations. Our algorithms are demonstrated on both 2D and 3D examples."
 
 # Summary. An optional shortened abstract.
-summary: ""
+summary: "A novel representation for solid models to facilitate intuitive shape design and straightforward reverse engineering"
 
 tags: []
 categories: []
@@ -45,7 +45,7 @@ url_code: https://github.com/duxingyi-charles/Boundary_Sampled_Halfspaces
 url_dataset:
 url_poster:
 url_project:
-url_slides:
+url_slides: "BSH_Slides.pdf"
 url_source:
 url_video: https://youtu.be/rCKh39pEdrg
 
