@@ -42,12 +42,12 @@ links:
 
 url_pdf:
 url_code: 
-url_dataset:
+url_dataset: https://doi.org/10.5281/zenodo.5547887
 url_poster:
 url_project:
 url_slides:
 url_source:
-url_video: https://youtu.be/kJWOwzJw5_c
+url_video: https://youtu.be/XvewOf-U7Gw
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -90,7 +90,7 @@ Injective parameterizations of triangulated meshes are critical across applicati
 
 ### **Fast Forward**
 
-{{< youtube kJWOwzJw5_c >}}
+{{< youtube XvewOf-U7Gw >}}
 
 ### **Optimization Process**
 
@@ -98,11 +98,22 @@ The process of optimizing SEA (smooth excess area) on the examples presented in 
 
 {{< youtube JXtlrBec4Rs >}}
 
-## **Code and Dataset**
+## **Dataset**
 
-We create a benchmark of 1791 examples for evaluating free-boundary injective mapping with positional constraints.
+We create a benchmark dataset for evaluating various methods' capability to recover an injective mapping from a non-injective initial mapping while keeping a group of positional constraints in place.
 
-Code and the benchmark dataset will be released soon.
+The dataset includes 1791 triangular mesh examples. Each example contains
+- `input.obj`: rest mesh and initial mesh (as UV coordinates)
+- `handles.txt`: list of indices of the fixed vertices
+- `groundTruth.obj`: globally injective mesh satisfying positional constraints
+
+We also provide the result of our method for each example.
+
+[`Download Dataset`](https://doi.org/10.5281/zenodo.5547887)
+
+## **Code**
+
+Code will be released soon.
 
 
 ## **Figures**
