@@ -45,7 +45,7 @@ url_code:
 url_dataset: https://doi.org/10.5281/zenodo.5547887
 url_poster:
 url_project:
-url_slides:
+url_slides: "Optimizing-Global-Injectivity-for-Constrained-Parameterization-Slides.pdf"
 url_source:
 url_video: https://youtu.be/XvewOf-U7Gw
 
@@ -91,6 +91,14 @@ Injective parameterizations of triangulated meshes are critical across applicati
 ### **Fast Forward**
 
 {{< youtube XvewOf-U7Gw >}}
+
+### **Summary**
+
+{{< youtube STFiyq2iAmQ >}}
+
+### **Presentation**
+
+{{< youtube RCNbyUOlav0 >}}
 
 ### **Optimization Process**
 
