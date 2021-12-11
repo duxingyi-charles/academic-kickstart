@@ -41,7 +41,7 @@ links:
   url: Optimizing-Global-Injectivity-for-Constrained-Parameterization-low-res.pdf
 
 url_pdf:
-url_code: 
+url_code: https://github.com/duxingyi-charles/Smooth-Excess-Area
 url_dataset: https://doi.org/10.5281/zenodo.5547887
 url_poster:
 url_project:
@@ -121,7 +121,7 @@ We also provide the result of our method for each example.
 
 ## **Code**
 
-Code will be released soon.
+Source code is hosted on [github](https://github.com/duxingyi-charles/Smooth-Excess-Area).
 
 
 ## **Figures**
