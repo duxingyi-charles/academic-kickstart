@@ -4,7 +4,7 @@
 title: "Optimizing Global Injectivity for Constrained Parameterization"
 authors: ["Xingyi Du", "Danny M. Kaufman", "Qingnan Zhou", "Shahar Z. Kovalsky", "Yajie Yan", "Noam Aigerman", "Tao Ju"]
 date: 2021-09-18T17:23:54-05:00
-doi: ""
+doi: "10.1145/3478513.3480556"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2021-09-18T17:23:54-05:00
