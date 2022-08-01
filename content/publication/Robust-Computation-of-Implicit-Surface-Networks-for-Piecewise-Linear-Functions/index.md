@@ -45,7 +45,7 @@ url_code: https://github.com/duxingyi-charles/Robust-Implicit-Surface-Networks
 url_dataset:
 url_poster:
 url_project:
-url_slides: "slides.pdf"
+url_slides: "Robust_slides.pdf"
 url_source:
 url_video: https://youtu.be/d8Vl6jZdgmI
 
