@@ -36,18 +36,18 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-<!-- links:
+links:
 - name: PDF (Low Res)
-  url: Robust-Computation-of-Implicit-Surface-Networks-for-Piecewise-Linear-Functions-low-res.pdf -->
+  url: Robust-Computation-of-Implicit-Surface-Networks-for-Piecewise-Linear-Functions-low-res.pdf
 
 url_pdf:
-url_code: 
+url_code: https://github.com/duxingyi-charles/Robust-Implicit-Surface-Networks
 url_dataset:
 url_poster:
 url_project:
-url_slides: 
+url_slides: "slides.pdf"
 url_source:
-url_video:
+url_video: https://youtu.be/d8Vl6jZdgmI
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -95,10 +95,3 @@ Implicit surface networks, such as arrangements of implicit surfaces and materia
 {{<figure alt="fig-ia-results" src="/img/Implicit_network/fig-ia-results.jpg" title="Figure 2. Implict arrangements computed by our algorithm on implicit functions representing CAD models. Each example shows the non-manifold curve networks, patches, and 3D regions (in exploded view). Complexity of each example, running time of our method (full pipeline) and mesh arrangement are noted.">}}
 
 {{<figure alt="fig-mi-dc-results" src="/img/Implicit_network/fig-mi-dc-results.jpg" title="Figure 3. Voronoi diagrams of 3D lines (top left: 5 rotating lines; top right: 20 rotating lines; bottom left: 21 lines that sweep a Mobius strip) and circles (bottom right: 22 Villarceau circles on two tori) computed by our algorithm and the label-separating algorithm. The zoom-in views highlight regions on the non-manifold curve networks where the two algorithms produce notably different geometry and/or topology. The combinatorial complexity of each surface network and the running times (up to mesh extraction, before space decomposition) are noted.">}}
-
-## **Code**
-
-Source code will be released soon.
-
-
-
