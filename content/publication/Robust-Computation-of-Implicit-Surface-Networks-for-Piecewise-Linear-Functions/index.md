@@ -22,7 +22,7 @@ publication_short: ""
 abstract: "Implicit surface networks, such as arrangements of implicit surfaces and materials interfaces, are used for modeling piecewise smooth or partitioned shapes. However, accurate and numerically robust algorithms for discretizing either structure on a grid are still lacking. We present a unified approach for computing both types of surface networks for piecewise linear functions defined on a tetrahedral grid. Both algorithms are guaranteed to produce a correct combinatorial structure for any number of functions. Our main contribution is an exact and efficient method for partitioning a tetrahedron using the level sets of linear functions defined by barycentric interpolation. To further improve performance, we designed look-up tables to speed up processing of tetrahedra involving few functions and introduced an efficient algorithm for identifying nested 3D regions. "
 
 # Summary. An optional shortened abstract.
-summary: "A robust method for computing implicit surface netwroks (e.g. arrangements and material interfaces) on a tetrahedron grid"
+summary: "A robust method for computing implicit surface networks (e.g. arrangements and material interfaces) on a tetrahedron grid"
 
 tags: []
 categories: []
