@@ -78,10 +78,10 @@ user_groups:
 ---
 
 
-I am a fourth-year Ph.D. student at [CSE, Washington University in St. Louis](https://cse.wustl.edu/Pages/default.aspx). I research computer graphics and geometric computing under the supervision of [Prof. Tao Ju](https://www.cse.wustl.edu/~taoju/). I am interested in applying mathematics and computation to tackle challenging problems with a geometric flavor, with applications ranging from computer animation, geometric modeling to medical imaging.
+I am a final year Ph.D. student at [CSE, Washington University in St. Louis](https://cse.wustl.edu/Pages/default.aspx). I research computer graphics and geometric computing under the supervision of [Prof. Tao Ju](https://www.cse.wustl.edu/~taoju/). I am interested in applying mathematics and computation to tackle challenging problems with a geometric flavor, with applications ranging from computer animation, geometric modeling to medical imaging.
 
 I earned my master's degree from Tsinghua University in 2018. There, I worked on remeshing with [Prof. Hui Zhang](http://www.thss.tsinghua.edu.cn/publish/soften/3131/2010/20101219172208224374333/20101219172208224374333_.html) and [Prof. Dong-Ming Yan](https://sites.google.com/site/yandongming/). I finished my undergraduate study in 2015 from Tsinghua University with a major in Material Science and a minor degree in Computer Science.  
 
-I have been collaborating with fantastic researchers at [Adobe Research](https://research.adobe.com/) on many exciting problems in graphics and geometry.
+I am lucky to collaborate with brilliant researchers at [Adobe Research](https://research.adobe.com/) on many exciting problems in graphics and geometry.
 
 In my spare time, I enjoy hiking, cooking Chinese food, reading books, and learning math.
