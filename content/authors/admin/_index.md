@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Xingyi Du
+title: Xingyi Du (杜兴逸)
 
 # Username (this should match the folder name)
 authors:
