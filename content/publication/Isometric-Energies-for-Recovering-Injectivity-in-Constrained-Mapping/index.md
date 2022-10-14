@@ -88,9 +88,7 @@ Computing injective maps with low distortions is a long-standing problem in comp
 
 ## **Video** 
 
-### **Fast Forward**
-
-<!-- {{< youtube XvewOf-U7Gw >}} -->
+{{< youtube 6Utp5YR28Mg >}}
 
 ## **Code**
 
