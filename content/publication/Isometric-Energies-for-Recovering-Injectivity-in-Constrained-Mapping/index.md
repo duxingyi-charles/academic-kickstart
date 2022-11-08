@@ -22,7 +22,7 @@ publication_short: ""
 abstract: "Computing injective maps with low distortions is a long-standing problem in computer graphics. Such maps are particularly challenging to obtain in the presence of positional constraints, because an injective initial map is often not available. Recently, several energies were proposed and shown to be highly successful in optimizing injectivity from non-injective initial maps while satisfying positional constraints. However, minimizing these energies tends to produce elements with significant isometric distortions. This paper presents simple variants of these energies that retain their desirable traits while promoting isometry. While our method is not guaranteed to provide an injective map, we observe that, on large-scale 2D and 3D data sets, minimizing the proposed isometric variants results in a similar level of success in recovering injectivity as the original energies but a significantly lower isometric distortion."
 
 # Summary. An optional shortened abstract.
-summary: "A method for computing injective and low-distortion maps with positional constraints"
+summary: "A method for computing injective (one-to-one) and low-distortion maps under fixed-boundary or positional constraints"
 
 tags: []
 categories: []
@@ -39,15 +39,17 @@ featured: false
 links:
 - name: PDF (Low Res)
   url: Isometric-Energies-for-Recovering-Injectivity-in-Constrained-Mapping-low-res.pdf
+- name: Supplementary
+  url: IsoTLC_SEA_supp.pdf
 
 url_pdf:
 url_code:
 url_dataset:
 url_poster:
 url_project:
-url_slides:
+url_slides: "IsoTLC_SEA_slides.pdf"
 url_source:
-url_video: https://youtu.be/6Utp5YR28Mg
+url_video: https://youtu.be/ZzmU1WZmunE
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -78,7 +80,7 @@ header:
 
 ---
 
-{{<figure alt="featured" src="/img/Iso_TLC_SEA/teaser.png" title="Figure 1. When used to parameterize meshes into the 2D plane, our isometric variants of injectivity energies empirically tend to yield injective results with low isometric distortion. Left: an initial map of Lucy into letter S, which contains many inverted triangles (red), is optimized while holding its boundary fixed, using the TLC energy [Du et al. 2020], the Fold-Free Mapping (FFM) method of [Garanzha et al. 2021], and our energy - IsoTLC. Right: an initial map, which contains inverted triangles (red), overwinding vertices (purple) and global overlaps (boxed), is optimized while fixing only a set of sparse positional constraints (blue) without constraining the boundary, by minimizing either the SEA energy of [Du et al. 2020] or our energy, IsoSEA. In both cases, our method leads to the injective map with the lowest isometric distortion (max(𝜎1, 1/𝜎2)) of the triangles, as shown by the histograms and the color map on the mesh.">}}
+{{<figure alt="featured" src="/img/Iso_TLC_SEA/teaser.png" title="Figure 1. When used to parameterize meshes into the 2D plane, our isometric variants of injectivity energies empirically tend to yield injective results with low isometric distortion. Left: an initial map of Lucy into letter S, which contains many inverted triangles (red), is optimized while holding its boundary fixed, using the TLC energy [Du et al. 2020], the Fold-Free Mapping (FFM) method of [Garanzha et al. 2021], and our energy - IsoTLC. Right: an initial map, which contains inverted triangles (red), overwinding vertices (purple) and global overlaps (boxed), is optimized while fixing only a set of sparse positional constraints (blue) without constraining the boundary, by minimizing either the SEA energy of [Du et al. 2021] or our energy, IsoSEA. In both cases, our method leads to the injective map with the lowest isometric distortion (max(𝜎1, 1/𝜎2)) of the triangles, as shown by the histograms and the color map on the mesh.">}}
 
 
 
@@ -88,7 +90,25 @@ Computing injective maps with low distortions is a long-standing problem in comp
 
 ## **Video** 
 
+Fast-forward
+
 {{< youtube 6Utp5YR28Mg >}}
+
+
+Presentation
+
+{{< youtube ZzmU1WZmunE >}}
+
+## **Figures**
+
+{{<figure alt="gallery-fixed-2d" src="/img/Iso_TLC_SEA/gallery_fixed_2d.png" title="Figure 2. Comparing maps computed by TLC, FFM, and our method (IsoTLC) on several 2D examples in the fixed-boundary benchmark of TLC. Each example consists of a rest mesh and an initial map containing inverted triangles (red). Histograms of per-element distortion are shown using the distortion measure max(σ1, 1/σ2).">}}
+
+{{<figure alt="gallery-free-2d" src="/img/Iso_TLC_SEA/gallery_free_2d.png" title="Figure 3. Comparing maps computed by SEA and our method (IsoSEA) on several examples in the free-boundary benchmark of SEA. Each example consists of a rest mesh, a set of constrained vertices (blue), and an initial map containing inverted triangles (red), overwound vertices (purple), and global overlaps. Histograms of per-element distortion are shown using the distortion measure max(σ1, 1/σ2).">}}
+
+{{<figure alt="fig-poor-triangle" src="/img/Iso_TLC_SEA/fig-poor-triangle.png" title="Figure 4. Fixed-boundary mapping of meshes with poorly shaped triangles from Thingi10K. Both TLC and IsoTLC succeeded in producing injective maps, while IsoTLC achieved much lower distortion.">}}
+
+{{<figure alt="fig-benchmark" src="/img/Iso_TLC_SEA/fig-benchmark.png" title="Figure 5. Histograms (in log-log scale) of maximum (top) and average (bottom) distortion of maps computed by different methods on the fixed-boundary 2D (a) and 3D (b) benchmarks and the free-boundary benchmark (c) (only including examples where both SEA and IsoSEA succeeded in recovering injectivity).">}}
+
 
 ## **Code**
 
