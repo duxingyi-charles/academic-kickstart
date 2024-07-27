@@ -4,7 +4,7 @@
 title: "Isometric Energies for Recovering Injectivity in Constrained Mapping"
 authors: ["Xingyi Du", "Danny M. Kaufman", "Qingnan Zhou", "Shahar Z. Kovalsky", "Yajie Yan", "Noam Aigerman", "Tao Ju"]
 date: 2022-10-09T17:23:54-06:00
-doi: 
+doi: 10.1145/3550469.3555419
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-10-09T17:23:54-06:00
