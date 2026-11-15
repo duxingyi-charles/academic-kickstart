@@ -78,7 +78,9 @@ user_groups:
 ---
 
 
-I am a researcher at Lightspeed Studios, Tencent America. I obtained Ph.D. from [CSE, Washington University in St. Louis](https://cse.wustl.edu/Pages/default.aspx), where I studied computer graphics and geometric modeling under the supervision of [Prof. Tao Ju](https://www.cse.wustl.edu/~taoju/). My PhD thesis focuses on injective mapping of triangular and tetrahedral meshes under constraints such as fixed boundary or positional handles. I also explored modeling shapes with sharp features and complex structures using multiple implicit functions. I am fortunate to collaborate with brilliant researchers at [Adobe Research](https://research.adobe.com/) on many exciting problems in graphics and geometry.
+I am a researcher at Lightspeed Studios, Tencent America. At Tencent, I develop geometry algorithms and Unreal Engine tools for game production, and work on post-training and reinforcement learning for 3D generation.
+
+I obtained Ph.D. from [CSE, Washington University in St. Louis](https://cse.wustl.edu/Pages/default.aspx), where I studied computer graphics and geometric modeling under the supervision of [Prof. Tao Ju](https://www.cse.wustl.edu/~taoju/). My PhD thesis focuses on injective mapping of triangular and tetrahedral meshes under constraints such as fixed boundary or positional handles. I also explored modeling shapes with sharp features and complex structures using multiple implicit functions. I am fortunate to collaborate with brilliant researchers at [Adobe Research](https://research.adobe.com/) on many exciting problems in graphics and geometry.
 
 I earned my master's degree from Tsinghua University in 2018. There, I worked on high quality remeshing with [Prof. Hui Zhang](http://www.thss.tsinghua.edu.cn/publish/soften/3131/2010/20101219172208224374333/20101219172208224374333_.html) and [Prof. Dong-Ming Yan](https://sites.google.com/site/yandongming/). I finished my undergraduate study in 2015 from Tsinghua University with a major in Material Science (Physics) and a minor degree in Computer Science.  
 
